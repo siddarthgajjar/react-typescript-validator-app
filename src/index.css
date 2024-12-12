@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.sin-input input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.validation-result {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.validation-result.valid {
+  color: green;
+  background-color: #e0ffe0;
+}
+
+.validation-result.invalid {
+  color: red;
+  background-color: #ffe0e0;
+}
